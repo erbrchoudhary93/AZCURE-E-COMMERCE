@@ -1,0 +1,21 @@
+{% extends 'shop/basic.html' %}
+
+
+
+
+{% block title %} Payment Success{% endblock %}
+{% block body%}
+<h1>Payment Success</h1>
+<br>
+<H4>Congratulation !you Have done the payment.  <br> Your order id - "<b>{{dict.razorpay_order_id}}</b>" . Use it to track your order using our order tracker<br> Your order will reach to you in 5 days</H4>
+{% endblock %}
+{% block js %}
+<script>
+    {% if thank %}
+    alert('Thanks for ordering with us. Your order is  {{dict.razorpay_order_id}}. Use it to track your order using our order tracker');
+    localStorage.clear();
+    // document.location = "/shop";
+    {% endif %}
+   
+</script>
+{% endblock %}

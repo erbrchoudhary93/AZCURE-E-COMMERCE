@@ -1,0 +1,103 @@
+{% extends 'shop/basic.html' %}
+{% block title%} My Awesome Cart {% endblock %}
+
+
+{% block css %}
+<style>
+  img {
+    height: 348px;
+    width: 333px;
+  }
+
+  .bd-placeholder-img {
+    font-size: 1.125rem;
+    text-anchor: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+  }
+
+  @media (min-width: 768px) {
+    .bd-placeholder-img-lg {
+      font-size: 3.5rem;
+    }
+  }
+</style>
+
+{% endblock %}
+{% block body %}
+
+
+<body>
+  {% load static %}
+
+  <body>
+    <main>
+      <section class="py-5 text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-6 col-md-8 mx-auto">
+            <h1 class="fw-light">AZCURE E-COMMERCE</h1>
+            <p class="lead text-muted">It can be difficult to make time to see your doctor, and the current COVID-19 pandemic has created additional concerns. Between busy schedules, trying to avoid exposure to the novel coronavirus, and limited appointment availability, staying healthy can lead to extra stress.
+              AZCURE E Clinics allows you to discuss nonemergency medical issues with a doctor by phone or online at a time that’s convenient for you.
+              AZCURE was one of the first telehealth providers in the Western Rajasthan. We have maintained a highly favorable rating among physicians and patients.
+              AZCURE E CLinics can be used for a wide range of medical issues, including:
+              pediatric services
+              </p>
+          </div>
+        </div>
+      </section>
+      <div class="album py-5 bg-light">
+        <div class="container">
+          <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{% static '/shop/au.jfif' %}" alt="">
+                <div class="card-body">
+                  <p class="card-text">जड़ी-बूटियाँ अपने सुगन्धित या औषधीय गुणों के कारण स्वाद, सुगंध, दवा और भोजन के लिए इस्तेमाल होती हैं। व्यंजन संबंधी उपयोग आम तौर पर मसाले से जड़ी-बूटियों को अलग करता है। जड़ी-बूटियाँ पौधे (या तो ताजा या सूखे) के हरे पत्ते या फूलों वाले हिस्से को संदर्भित करते हैं, जबकि मसाले पौधे के अन्य भागों से (आमतौर पर सूखे) बने होते हैं, जिसमें बीज, छोटे फल, छाल, जड़ और फल शामिल होते हैं। 
+                  </p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{% static '/shop/aca.webp' %}" alt="">
+                <div class="card-body">
+                  <p class="card-text">जड़ी-बूटियाँ अपने सुगन्धित या औषधीय गुणों के कारण स्वाद, सुगंध, दवा और भोजन के लिए इस्तेमाल होती हैं। व्यंजन संबंधी उपयोग आम तौर पर मसाले से जड़ी-बूटियों को अलग करता है। जड़ी-बूटियाँ पौधे (या तो ताजा या सूखे) के हरे पत्ते या फूलों वाले हिस्से को संदर्भित करते हैं, जबकि मसाले पौधे के अन्य भागों से (आमतौर पर सूखे) बने होते हैं, जिसमें बीज, छोटे फल, छाल, जड़ और फल शामिल होते हैं।</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card shadow-sm">
+                <img src="{% static '/shop/a.jpg' %}" alt="">
+                <div class="card-body">
+                  <p class="card-text">जड़ी-बूटियाँ अपने सुगन्धित या औषधीय गुणों के कारण स्वाद, सुगंध, दवा और भोजन के लिए इस्तेमाल होती हैं। व्यंजन संबंधी उपयोग आम तौर पर मसाले से जड़ी-बूटियों को अलग करता है। जड़ी-बूटियाँ पौधे (या तो ताजा या सूखे) के हरे पत्ते या फूलों वाले हिस्से को संदर्भित करते हैं, जबकि मसाले पौधे के अन्य भागों से (आमतौर पर सूखे) बने होते हैं, जिसमें बीज, छोटे फल, छाल, जड़ और फल शामिल होते हैं।</p>
+                  <div class="d-flex justify-content-between align-items-center">
+                    <div class="btn-group">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script src="/docs/5.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+  </body>
+
+  </html>
+
+
+  {% endblock %}
+
+  </html>
